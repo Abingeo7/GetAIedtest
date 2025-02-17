@@ -31,9 +31,14 @@ function App() {
           <div className="max-w-3xl">
             <h1 className="text-5xl font-bold mb-6">Master Artificial Intelligence</h1>
             <p className="text-xl mb-8">Learn AI from industry experts. From basics to advanced concepts, transform your career with cutting-edge AI education.</p>
+            <a
+    href="https://www.youtube.com/@GetAIedu"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
             <button className="bg-white text-indigo-600 px-8 py-3 rounded-full font-semibold text-lg hover:bg-indigo-50 transition-colors">
               Start Learning
-            </button>
+            </button> </a>
           </div>
         </div>
       </header>
