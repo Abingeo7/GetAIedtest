@@ -9,7 +9,11 @@ function App() {
         <nav className="container mx-auto px-6 py-4 flex items-center justify-between">
           <div className="flex items-center space-x-2">
             <Brain className="w-8 h-8" />
-            <span className="text-xl font-bold">GetAIEd</span>
+            <a href="https://getaied.com/" onClick={(e) => { e.preventDefault(); window.location.reload(); }}>
+  <button className="text-xl font-bold">
+    GetAIEd
+  </button>
+</a>
           </div>
           <div className="hidden md:flex space-x-8">
             <a href="#courses" className="hover:text-indigo-200">Courses</a>
